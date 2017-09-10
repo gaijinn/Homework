@@ -1,0 +1,22 @@
+# wait for user input to choose shape type from console
+  getType();
+	#user chose 2D type, show available 2D shapes and wait for input
+		get2Dshape()
+		#prompt user to enter shape dimension values
+			getValues()
+			#show shape's properties
+				showProperties()
+				#prompt user if he wants to continue to use program
+					promptUser()
+					#if continue was true resume while cicle else end
+	
+	#user chose 3D type, show available 3D shapes and wait for input
+		get3Dshape()
+		#prompt user to enter shape dimension values
+			getValues()
+			#show shape's properties
+				showProperties()
+				#prompt user if he wants to continue to use program
+					promptUser()
+					#if continue was true resume while cicle else end
+		
